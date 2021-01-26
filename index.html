@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Clinic Dashboard</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container-fluid">
+
+      <!--start side manu -->
+      <div class="row White-background">
+        <div class="col-md-2 Menu-rectangle">
+          <div class="row sidemenu">
+            <div class="col-md-12">
+              <img src="img/clinic-logo.svg" class="Clinic-logo">
+            </div>
+          </div>
+          <ul style="list-style-type:none;">
+            <li><img src="img/dashboard-selected.svg" class="Dashboard---selected"></li>
+            <li><img src="img/chart.svg" class="chart"></li>
+
+            <li><img src="img/like.svg" class="like"></li>
+            <li><img src="img/profile.svg" class="profile"></li>
+          </ul>
+          <div class="row sidemenu align-bottom">
+            <div class="col-md-12">
+              <img src="img/cogwheel.svg" class="cogwheel">
+            </div>
+          </div>
+        </div>
+
+        <!-- end side menu -->
+        <!-- start body -->
+        <div class="col-md-8 Middle-background">
+          <div class="row search-row">
+            <div class="col-md-8">
+              <div class="form-group has-search">
+                <span class="search-icon-img form-control-feedback"><img src="img/search-icon.svg"></span>
+                <input type="text" id="search-box" class="form-control"
+                  placeholder="Search the athlete,profile, workout and medition sessions">
+              </div>
+            </div>
+            <div class="col-md-4 Rectangle" id="card">
+              <p class="text-blue mb-0"> <img src="img/time-icon.png" class="Time-icon" /><span class="ml-15">11:24 AM
+                  Today, Jan 23 </span></p>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-md-4">
+              <div class="card bg-primary " style="height: 10rem; border-radius:20px; border:none">
+                <div class="card-body ">
+                  <p class="card-text " style="color:#fff;">Concentration rate <span>normal</span></p>
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="row">
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                        <div class="vl"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class=" row footer">
+
+                      <div class="col-md-3" style="color:#fff;">0</div>
+                      <div class="col-md-3" style="color:#fff;">3</div>
+                      <div class="col-md-3" style="color:#fff;">6</div>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card  card-color1">
+                <div class="card-body ">
+                  <p class="card-text " style="color:#fff;">Brain stress rate <span>normal</span></p>
+
+                  <div class="progress-bar"></div>
+                  <div class="row">
+                    <div class="col-md-3 brain">
+                      <p>low</p>
+                    </div>
+                    <div class="col-md-4 brain">
+                      <p>heigh</p>
+                    </div>
+                    <div class="col-md-5 brain">
+                      <p>very heigh</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card " style="height: 10rem; border-radius:20px;border:none;background-color: #a66dd4">
+                <div class="card-body ">
+                  <p class="card-text" id="Brainactivity">Brain activity </p>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                        <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                        <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">high</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card card-team">
+                <div class="card-body">
+                  <p class="Your-coaches">Your Coaches</p>
+                  <div class="row">
+                    <div class="col-md-6 card-card">
+                      <div class="person-img1 text-center">
+                        <img class="card-img-top rounded-circle" style="height: 60px;width: 60px;" src="img/men1.png"
+                          alt="Card image cap">
+                        <p class="card-title Olivia-H">olivia.H</p>
+                      </div>
+                      <p class="lessons">12 lessons</p>
+                    </div>
+                    <div class="col-md-6 card-card">
+                      <div class="person-img1 text-center">
+                        <img class="card-img-top rounded-circle" style="height: 60px;width: 60px;" src="img/men1.png"
+                          alt="Card image cap">
+                        <p class="card-title Olivia-H">Li Na Z</p>
+                      </div>
+                      <p class="lessons">14 lessons</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-team">
+
+
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-3 btn btn-outline-primary">button</div>
+                    <div class="col-md-6">
+                      <img class="card-img-top " src="img/men1.png"
+                        style="height: 60px;width: 60px; margin: 10px 20px 0 57px;" alt="Card image cap">
+                      <p class="mett-henry " style="text-align: center;">matt henry</p>
+                    </div>
+                    <div class=" col-md-3 btn btn-outline-success">button</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p class="mobile">(+01) 88-555-000-66</p>
+                      <p class="Mobile-number">mobile number</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="-Pm---1000-Pm">06:00 Pm - 10:00 Pm </p>
+                      <p class="TimePlace">time/place</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="card" style="border-radius:30px;">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h5 class="title">Running sessions</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <h5 class="excellent"> Excellent</h5>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row text-center">
+                    <div class="col-md-4">
+                      <div class="myicons one marker">
+                        <img src="img/place-icon.svg">
+                      </div>
+                      <p class="place-info">10.64</p>
+                      <p class="place-distance">Kilometers</p>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="myicons two marker">
+                        <img src="img/time-icon.svg">
+                      </div>
+                      <p class="place-info">1.48</p>
+                      <p class="place-distance">Hours</p>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="myicons three marker">
+                        <img src="img/sport-icon.svg">
+                      </div>
+                      <p class="place-info">5.25</p>
+                      <p class="place-distance">Speed</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+
+              <div class="card " style="border-radius:30px;">
+                <div class="row">
+                  <div class="col-md-8">
+                    <p class="title">Post Workout Session</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p class="excellent" id="excellent"> Excellent</ps>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row text-center">
+                    <div class="col-md-4">
+                      <div class="myicons one marker">
+                        <img src="img/musculation-icon.svg">
+                      </div>
+                      <p class="place-info ">48Min</p>
+                      <p class="place-distance">Streching</p>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="myicons two marker">
+                        <img src="img/mind-icon.svg">
+                      </div>
+                      <p class="place-info ">32Min</p>
+                      <p class="place-distance">Mind Training</p>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="myicons three marker">
+                        <img src="img/lotus-icon.svg">
+                      </div>
+                      <p class="place-info ">1.0h</p>
+                      <p class="place-distance">Meditation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row lastmenu">
+            <div class="col-md-6">
+              <img src="img/mask/mask.png" class="maskimg">
+            </div>
+            <div class="col-md-6">
+              <p class="mask-data">Isaac Williams</p>
+              <p class="mask-years">25 years old, London</P>
+            </div>
+          </div>
+          <div class="row personal-details">
+            <div class="col-md-2">
+
+
+              <p class="perosnal-info">Blood</p>
+              <p class="personal-infospan">O+</p>
+            </div>
+            <div class="col-md-1">
+              <p class="line"></p>
+
+            </div>
+            <div class="col-md-3">
+              <p class="perosnal-info">&nbsp;&nbsp;Height</p>
+              <p class="personal-infospan">186CM</p>
+            </div>
+            <div class="col-md-1">
+              <p class="line"></p>
+
+            </div>
+            <div class="col-md-3">
+              <p class="perosnal-info">Weight</p>
+              <p class="personal-infospan">90KG</p>
+            </div>
+
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+
+              <p class="March">March </p>
+
+              <img class="dropdownmarker" src="img/dropdownicon.svg">
+            </div>
+            <div class="flex-container">
+
+              <div class="date">Mon <span class="date-number">9</span></div>
+              <div class="date">Tue <span class="date-number">10</span></div>
+              <div class="selected-date date" style="background-color: blue;color: #fff;">Wed <span
+                  class="date-number">11</span></div>
+              <div class="date">Thu <span class="date-number">12</span></div>
+              <div class="date">Fri <span class="date-number">13</span></div>
+              <div class="date">Sat <span class="date-number">14</span></div>
+              <div class="date">Sun <span class="date-number">15</span></div>
+              <div class="last-date">Mon <span class="date-number">16</span></div>
+
+            </div>
+          </div>
+
+
+          <!--   
+                  <div class="row lastmenu">
+                <div class="col-md-12">
+                   <div class="row">
+				   
+                      <p class="March">March </p>
+					  
+					  <img class="dropdownmarker" src="img/dropdownicon.svg">
+                    </div>
+					</div>
+                    
+                  </div> -->
+          <div class="row lastmenu">
+            <div class="col-md-12">
+              <div class="card blue-card bg-img">
+                <!-- <img class="card-img-top  " src="img/medal.svg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text " >Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
